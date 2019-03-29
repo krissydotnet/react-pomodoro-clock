@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-container {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'Fredoka One', cursive;
+}
+.row-container {
+    display: flex;
+
+}
+.buttons-container {
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    font-size: 1.5em;
+    position: relative;
+    top: 0px;
+    transition: all ease 0.3s;
+}
+
+.buttons button:active {  
+    top: 3px;
+}
+.buttons .display-number {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.clock-container {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+.clock-display {
+    font-size: 3.5rem;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #333333;
+    border: 1rem solid #000000;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 200px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.clock-buttons {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+.clock-buttons button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: .5rem;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    font-size: 1.5em;
+    
+}
+.clock-buttons button:hover {
+    transform: scale(1.2);
+}
